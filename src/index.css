@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-sans: "Funnel Display", sans-serif;
+  --color-base: #F5F5F5;
+  --color-darks: #283739;
+  --color-accent: #228896;
+  --color-tint: #A9C52F;
+}
+
+:root {
+  --color-base-100: #F5F5F5;
+  --color-base-200: #EBEBEB;
+  --color-base-300: #E0E0E0;
+  --color-base-content: #283739;
+  --color-primary: #228896;
+  --color-primary-content: #F5F5F5;
+  --color-accent: #228896;
+  --color-accent-content: #F5F5F5;
+  --color-neutral: #283739;
+  --color-neutral-content: #F5F5F5;
+}
+
+body {
+  font-family: "Funnel Display", sans-serif;
+}
